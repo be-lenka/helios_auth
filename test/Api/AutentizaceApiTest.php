@@ -4,7 +4,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  BeLenka\Helios
+ * @package  BeLenka\Helios\Auth
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -25,18 +25,18 @@
  * Please update the test case below to test the endpoint.
  */
 
-namespace BeLenka\Helios\Test\Api;
+namespace BeLenka\Helios\Auth\Test\Api;
 
-use \BeLenka\Helios\Configuration;
-use \BeLenka\Helios\ApiException;
-use \BeLenka\Helios\ObjectSerializer;
+use \BeLenka\Helios\Auth\Configuration;
+use \BeLenka\Helios\Auth\ApiException;
+use \BeLenka\Helios\Auth\ObjectSerializer;
 use PHPUnit\Framework\TestCase;
 
 /**
  * AutentizaceApiTest Class Doc Comment
  *
  * @category Class
- * @package  BeLenka\Helios
+ * @package  BeLenka\Helios\Auth
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
