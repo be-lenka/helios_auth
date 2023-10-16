@@ -1,5 +1,8 @@
 {
-    "name": "be-lenka/helios_auth",
+    "name": "{{composerPackageName}}",
+    {{#artifactVersion}}
+    "version": "{{artifactVersion}}",
+    {{/artifactVersion}}
     "description": "-",
     "keywords": [
         "openapitools",
@@ -11,11 +14,11 @@
         "api"
     ],
     "homepage": "https://openapi-generator.tech",
-    "license": "MIT",
+    "license": "{{licenseName}}",
     "authors": [
         {
-            "name": "BeLenka Dev",
-            "homepage": "https://www.belenka.com"
+            "name": "{{developerOrganization}}",
+            "homepage": "{{developerOrganizationUrl}}"
         }
     ],
     "require": {
@@ -30,9 +33,9 @@
         "friendsofphp/php-cs-fixer": "^2.12"
     },
     "autoload": {
-        "psr-4": { "BeLenka\\Helios\\Auth\\" : "lib/" }
+        "psr-4": { "{{escapedInvokerPackage}}\\" : "{{srcBasePath}}/" }
     },
     "autoload-dev": {
-        "psr-4": { "BeLenka\\Helios\\Auth\\Test\\" : "test/" }
+        "psr-4": { "{{escapedInvokerPackage}}\\Test\\" : "{{testBasePath}}/" }
     }
 }
